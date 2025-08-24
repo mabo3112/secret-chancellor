@@ -69,16 +69,21 @@ body {
     left: 50%;
     padding:10vmin;
     box-sizing:border-box;
+    border-radius: 10px;
     font-size: 32px;
     font-weight: 600;
     text-align: center;
     transform: translate(-50%, -50%) scale(0);
     transition: 200ms ease-in-out;
-    background-color: darkslategrey;
+    background-color: rgb(27, 26, 34);
     font-family: monospace;
 }
 .modal.active {
     transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-text {
+    color: rgb(235, 235, 235);
 }
 
 .takeASeat {
