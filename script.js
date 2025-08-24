@@ -6,9 +6,6 @@ let count = 0;
 thingy.addEventListener("mouseover", function(e) {
     thingy.style.left = randPosX() + '%';
     thingy.style.top = randPosY() + '%';
-    console.log(e);
-   // let posX = randPosX();
-   // let posY = randPosY();
     count++;
     console.log(count)
     if(count >= 10) {
